@@ -1,0 +1,32 @@
+<div style="padding:5px">
+    <label for="your_username">Username</label>
+    <input id="your_id" type="text">
+</div>
+<div style="padding:5px">
+    <label for="your_password">Password</label>
+    <input id="your_pw" type="text">
+</div>
+<div style="padding:5px">
+    <label for="re_password">enter password again</label>
+    <input id="re_pw" type="text">
+</div>
+<div>
+    <input id="creat_id" value="create id" onclick="creat_id()">
+</div>
+<script>
+    var users = [];
+    function creat_id() {
+        var your_id = document.querySelector("#your_id");
+        var email = document.querySelector("#email");
+        var your_pw = document.querySelector("#your_pw");
+        var re_pw = document.querySelector("#re_pw");
+        users.append()
+    }
+    function setCookie(name, value, expiredays) {
+        var todayDate = new Date();
+        todayDate.setDate(todayDate.getDate() + expiredays);
+        document.cookie = name + "=" + escape(value) + "; path=/; expires="+ todayDate.toGMTString() + ";"
+    }
+    
+        
+</script>
